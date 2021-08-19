@@ -1,0 +1,62 @@
+/* Reset CSS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#main {
+}
+#header {
+  height: 46px;
+  background-color: #000;
+}
+#nav {
+  height: 46px;
+  display: flex;
+  align-items: center;
+}
+#nav,
+.subnav {
+  list-style-type: none;
+}
+#nav > li {
+  padding: 0 24px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+#nav > li > a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+}
+#nav .subnav {
+}
+#nav .subnav li {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: block;
+}
+#nav .subnav li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  /* position: relative; */
+}
+#nav li:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+#slider {
+}
+#content {
+}
+#footer {
+}
