@@ -517,6 +517,8 @@ html {
   }
   .s-btn-buy {
     width: 100%;
+    -webkit-appearance: none;
+    font-size: 1.5rem;
   }
   .contact-info,
   .contact-form {
